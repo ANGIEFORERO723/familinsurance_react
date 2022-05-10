@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class contenedores extends Component {
   render() {
     return (
@@ -30,7 +31,7 @@ export default class contenedores extends Component {
 						
 							<a href="chatea-nosotros.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/credit-card.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src= {require('../../img/icons/credit-card.png')} width="75" height="75" alt="PathSoft"/>
 								{/*<i class="material-icons material-icons-outlined md-48">support_agent</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -47,7 +48,7 @@ export default class contenedores extends Component {
 
 							<a href="chatea-nosotros.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/chat.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/chat.png')} width="75" height="75" alt="PathSoft"/>
 								{/*<i class="material-icons material-icons-outlined md-48">support_agent</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -62,7 +63,7 @@ export default class contenedores extends Component {
 							
 							<a href="facturaelec.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/factura.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/factura.png')} width="75" height="75" alt="PathSoft"/>
 								{/*	<i class="material-icons material-icons-outlined md-48">cloud_download</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -77,13 +78,15 @@ export default class contenedores extends Component {
 							
 							<a href="ExperienciaFamilin.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/experiencia.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/experiencia.png')} width="75" height="75" alt="PathSoft"/>
 								{/*<i class="material-icons material-icons-outlined md-48">laptop_mac</i>*/}
 								</div>
+                                <dir/> <dir/>
 								<div class="iitem-icon-bg">
 									<i class="material-icons material-icons-outlined">laptop_mac</i>
 								</div>
                                 <div class="row items justify-content-center"></div>
+                                <dir/> <dir/> 
 								<h2 class="iitem-heading item-heading-large">Experiencia Familinsurance</h2>
 								<div class="iitem-desc">Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</div>
 							</a>
@@ -93,7 +96,7 @@ export default class contenedores extends Component {
 							
 							<a href="E-cliente.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/web.png" width="70" height="70" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/web.png')} width="70" height="70" alt="PathSoft"/>
 								{/*<i class="material-icons material-icons-outlined md-48">phone_android</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -122,7 +125,7 @@ export default class contenedores extends Component {
 
 							<a href="centros-medicos.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/salud.png" width="80" height="80" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/salud.png')} width="80" height="80" alt="PathSoft"/>
 									 {/* <i class="material-icons material-icons-outlined md-48">corporate_fare</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -138,7 +141,7 @@ export default class contenedores extends Component {
 
 							<a href="directorio-medico.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/directorio.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/directorio.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*<i class="material-icons material-icons-outlined md-48">support_agent</i>  */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -153,7 +156,7 @@ export default class contenedores extends Component {
 							
 							<a href="reembolsos-autorizaciones.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/reembolso.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/reembolso.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*	<i class="material-icons material-icons-outlined md-48">cloud_download</i>  */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -168,7 +171,7 @@ export default class contenedores extends Component {
 							
 							<a href="especialistas.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/cell.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/cell.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*<i class="material-icons material-icons-outlined md-48">laptop_mac</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -182,7 +185,7 @@ export default class contenedores extends Component {
 							
 							<a href="orientacion.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/call2.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/call2.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*<i class="material-icons material-icons-outlined md-48">phone_android</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -196,7 +199,7 @@ export default class contenedores extends Component {
 							
 							<a href="centro-ayuda.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/ayuda.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/ayuda.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*	<i class="material-icons material-icons-outlined md-48">tv</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -223,7 +226,7 @@ export default class contenedores extends Component {
 							
 							<a href="E-car.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/cell.png" width="80" height="80" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/cell.png')} width="80" height="80" alt="PathSoft"/>
 									 {/* <i class="material-icons material-icons-outlined md-48">corporate_fare</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -238,7 +241,7 @@ export default class contenedores extends Component {
 
 							<a href="caso-accidente.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/car.png" width="100" height="100" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/car.png')} width="100" height="100" alt="PathSoft"/>
 								 {/*<i class="material-icons material-icons-outlined md-48">support_agent</i>  */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -253,7 +256,7 @@ export default class contenedores extends Component {
 							
 							<a href="talleres.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/taller.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/taller.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*	<i class="material-icons material-icons-outlined md-48">cloud_download</i>  */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -280,7 +283,7 @@ export default class contenedores extends Component {
 						
 							<a href="peritacion.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/home.png" width="80" height="80" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/home.png')} width="80" height="80" alt="PathSoft"/>
 									 {/* <i class="material-icons material-icons-outlined md-48">corporate_fare</i> */}
 								</div>
 								<div class="iitem-icon-bg">
@@ -295,7 +298,7 @@ export default class contenedores extends Component {
 							
 							<a href="E-car-hogar.html" class="iitem item-style">
 								<div class="iitem-icon">
-                                    <img src="assets/img/icons/home2.png" width="75" height="75" alt="PathSoft"/>
+                                    <img src={require('../../img/icons/home2.png')} width="75" height="75" alt="PathSoft"/>
 								 {/*<i class="material-icons material-icons-outlined md-48">support_agent</i>  */}
 								</div>
 								<div class="iitem-icon-bg">
