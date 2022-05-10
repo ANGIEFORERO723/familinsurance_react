@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Cuerpo/>
       <Contenedores/>
-      <Slider />
-      <Services />
+      {/*<Slider />*/}
+      {/*<Services />*/}
       <Footer />
     </div>
   );
