@@ -73,7 +73,7 @@ export default class contenedores extends Component {
 									have suffered alteration in some form, by injected humour, or randomised word.</div>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 col-12 item experiencia">
+						<div class="col-lg-4 col-md-6 col-12 item ">
 							
 							<a href="ExperienciaFamilin.html" class="iitem item-style">
 								<div class="iitem-icon">
@@ -83,15 +83,13 @@ export default class contenedores extends Component {
 								<div class="iitem-icon-bg">
 									<i class="material-icons material-icons-outlined">laptop_mac</i>
 								</div>
-
-                                
-
                                 <div class="row items justify-content-center"></div>
 								<h2 class="iitem-heading item-heading-large">Experiencia Familinsurance</h2>
 								<div class="iitem-desc">Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</div>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 col-12 item web1">
+
+						<div class="col-lg-4 col-md-6 col-12 item">
 							
 							<a href="E-cliente.html" class="iitem item-style">
 								<div class="iitem-icon">
